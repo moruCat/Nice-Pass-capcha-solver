@@ -1,0 +1,27 @@
+[package]
+name = "nice-captcha-solver"
+version = "0.1.0"
+edition = "2021"
+default-run = "example"
+
+[[bin]]
+name = "example"
+path = "src/main.rs"
+
+[[bin]]
+name = "debug_fail_6"
+path = "src/bin/debug_fail_6.rs"
+
+[[bin]]
+name = "debug_all_fails"
+path = "src/bin/debug_all_fails.rs"
+
+[[bin]]
+name = "extract_kerning"
+path = "src/bin/extract_kerning.rs"
+
+[dependencies]
+image = "0.25"
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

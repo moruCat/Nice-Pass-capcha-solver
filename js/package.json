@@ -1,0 +1,12 @@
+{
+  "name": "nice-pass-captcha-solver-js",
+  "version": "1.0.0",
+  "description": "NICE-PASS Captcha Solver in Node.js",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

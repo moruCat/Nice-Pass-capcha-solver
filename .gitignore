@@ -1,0 +1,22 @@
+# Rust
+rust/target/
+rust/Cargo.lock
+
+# JavaScript / Node.js
+js/node_modules/
+js/package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Assets (Optional: 샘플 이미지가 너무 많으면 제외할 수 있음)
+# assets/samples/
